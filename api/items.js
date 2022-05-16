@@ -81,7 +81,7 @@ let deleteFile = (fileName) => {
   try {
     fs.unlinkSync('./uploaded-images/' + fileName)
   } catch (error) {
-    console.log(error)
+    // console.log(error)
   }
 }
 module.exports = {
