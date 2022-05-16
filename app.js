@@ -45,6 +45,6 @@ app.post('/items', upload.single('image'), items.addItems)
 app.put('/items/:id', upload.single('image'), items.updateItems)
 app.delete('/items/:id', items.deleteItem)
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`)
-})
+server.listen(port, "0.0.0.0", () => {
+  console.log(`App listening at http://localhost:${port}`);
+});
