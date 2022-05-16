@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: './environmental-variable.env' })
 const port = process.env.PORT
 
 const express = require('express')
