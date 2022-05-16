@@ -1,0 +1,9 @@
+.App {
+  width: 80%;
+  margin: 50px auto;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
