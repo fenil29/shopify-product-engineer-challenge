@@ -10,3 +10,10 @@
 `npm start`
 
 project is started and accessible on port 3000
+
+### Technologies used
+
+- ReactJs
+- NodeJs
+- ExpressJs
+- PostgreSQL
