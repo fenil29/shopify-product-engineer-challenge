@@ -9,7 +9,7 @@ let getAllItems = async (req, res) => {
       let item = items.rows[i]
       //  getting weather info using open weather api
       let response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${item.location}&appid=6a40c1675c9008d836d8349284e40aa3`,
+        `https://api.openweathermap.org/data/2.5/weather?q=${item.location}&appid=${process.env.OPENWEATHER_API_KEY}`,
       )
       items.rows[i].weather = response.data.weather
     }
