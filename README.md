@@ -3,7 +3,7 @@
 <a href="http://shopify-product-engineer-challenge.fenilkaneria.com/" target="_blank">http://shopify-product-engineer-challenge.fenilkaneria.com/</a>
 
 ### Replit link
-<a href="https://replit.com/join/opydcgryiw-fenilkaneria" target="_blank">https://replit.com/join/opydcgryiw-fenilkaneria</a>
+<a href="https://replit.com/join/bydptbgwtj-fenilkaneria" target="_blank">https://replit.com/join/bydptbgwtj-fenilkaneria</a>
 
 ## how to run project
 1) install dependencies using
